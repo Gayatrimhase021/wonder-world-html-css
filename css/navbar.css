@@ -4,13 +4,12 @@
     justify-content:space-around;
     align-items: center;
     padding-top: 5px;
-
-
 }
 .website-name{
     font-weight: 700;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-left: 10px;
+    color: white;
 }
 .main-logo{
     width: 70px;
@@ -29,8 +28,9 @@
 }
  .menu{
     text-decoration: none;
-    color: black;
+    color:white;
     font-weight: 1000;
-    font-size: 20px;
-
+    font-size: 22px;
+    opacity: 0.9;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  }

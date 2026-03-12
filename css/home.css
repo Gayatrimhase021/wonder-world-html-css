@@ -273,6 +273,7 @@
     margin-top: 30px;
     margin-left: 100px;
     margin-right: 100px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 .work-section-card-items{
     display: flex;
@@ -281,12 +282,29 @@
    gap: 10px;
    background-color: white;
    padding: 20px;
-   border-radius: 10px;
    height: 200px;
    width: 200px;
-   border: 1px solid orangered;
+ 
 }
 .card--work-heading{
     font-size: 20px;
     font-weight: 700;
+}
+.work-section-card-items:hover{
+    border: 1px solid rgb(95, 32, 9);
+ transition: 0.1;
+}
+.img-work{
+    background-color: rgb(255, 169, 126);
+    padding: 15px;
+    border-radius: 50%;
+}
+
+
+.work-card-contain{
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+ 
 }

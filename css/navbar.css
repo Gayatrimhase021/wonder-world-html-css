@@ -3,8 +3,14 @@
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
-    padding-top: 5px;
-    position: sticky;
+    padding-top: 5px 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color:rgba(0,0,0,0.55);
+    z-index: 1000;
 }
 
 .website-name{

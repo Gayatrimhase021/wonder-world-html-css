@@ -4,7 +4,9 @@
     justify-content:space-around;
     align-items: center;
     padding-top: 5px;
+    position: sticky;
 }
+
 .website-name{
     font-weight: 700;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

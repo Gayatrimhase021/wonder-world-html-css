@@ -193,7 +193,7 @@
     gap:5px;
 }
 .destination-section-item-1-sub{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/taj.jpg); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/udaipur.jpeg); 
      width: 300px;
      height: 225px;
     background-size: cover;
@@ -207,7 +207,7 @@
 
 }
 .destination-section-item-2-sub{
-     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/taj.jpg); 
+     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/raj-img.jpg); 
       width: 300px;
      height: 225px;
     background-size: cover;
@@ -225,7 +225,7 @@
     gap:5px;
 }
 .destination-section-item-3-sub-1{
-     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/taj.jpg); 
+     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/jaipur-img.avif); 
      width: 300px;
      height: 225px;
     background-size: cover;
@@ -238,7 +238,7 @@
    
 }
 .destination-section-item-3-sub-2{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/taj.jpg); 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/kerla.jpg); 
      height: 225px;
     width: 300px;
     background-size: cover;
@@ -273,7 +273,7 @@
     margin-top: 30px;
     margin-left: 100px;
     margin-right: 100px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 8px rgba(77, 77, 77, 0.1);
 }
 .work-section-card-items{
     display: flex;
@@ -307,4 +307,68 @@
     justify-content: center;
     
  
+}
+@media (max-width: 768px) {
+
+  .main-content {
+    margin-left: 20px;
+    margin-top: 100px;
+  }
+
+  .sub-content {
+    font-size: 30px;
+  }
+
+  .main-info {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .heighlited-main-contain {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .destination-container {
+    flex-direction: column;
+    width: 90%;
+    border-radius: 20px;
+  }
+
+  .recomandation {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .destination-section-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .destination-section-item-1,
+  .destination-section-item-1-sub,
+  .destination-section-item-2-sub,
+  .destination-section-item-3-sub-1,
+  .destination-section-item-3-sub-2 {
+    width: 90%;
+  }
+
+  .card-info-top-info {
+    gap: 50px;
+  }
+
+  .work-section-card-container {
+    flex-direction: column;
+    margin: 20px;
+  }
+
+  .work-section-card-items {
+    width: 90%;
+    height: auto;
+  }
+
+  .work-section-heading {
+    font-size: 28px;
+  }
+
 }
